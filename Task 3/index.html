@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Streamify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="logo.png" />
+  </head>
+  <body>
+    <center><h1>Welcome To Streamify !</h1></center>
+    <button id="join-btn">Join Stream</button>
+
+    <div id="stream-wrapper">
+      <div id="video-streams"></div>
+
+      <div id="stream-controls">
+        <button id="leave-btn">Leave Stream</button>
+        <button id="mic-btn">Mic On</button>
+        <button id="camera-btn">Camera on</button>
+      </div>
+    </div>
+  </body>
+  <script src="AgoraRTC_N-4.18.2.js"></script>
+  <script src="main.js"></script>
+</html>
